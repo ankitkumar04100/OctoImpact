@@ -214,13 +214,6 @@ npx hardhat run scripts/deploy.js --network rinkeby
 
 **App Demo:** [OctoImpact](https://green-chain-quest.lovable.app/)
 
-**Screenshot Examples:**  
-- Dashboard with AI insights  
-- Sustainability tracker overview  
-- Blockchain NFT reward interface  
-
-[Screenshot]<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/9f32c582-1d98-4be8-b797-8671df7cff29" />
-
 ---
 
 ## Challenges Faced
