@@ -210,7 +210,7 @@ npx hardhat run scripts/deploy.js --network rinkeby
 
 ## Demo & Screenshots
 
-**Demo Video:** `demo_video.mp4`  
+**App Demo:** [OctoImpact](https://green-chain-quest.lovable.app/)
 
 **Screenshot Examples:**  
 - Dashboard with AI insights  
