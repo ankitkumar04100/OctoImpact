@@ -15,7 +15,7 @@
 10. [Blockchain Integration](#blockchain-integration)
 11. [Setup & Installation](#setup--installation)
 12. [Running the Application](#running-the-application)
-13. [Demo & Screenshots](#demo--screenshots)
+13. [App Demo & Screenshots](#demo--screenshots)
 14. [Challenges Faced](#challenges-faced)
 15. [Accomplishments](#accomplishments)
 16. [What We Learned](#what-we-learned)
