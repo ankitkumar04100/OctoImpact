@@ -8,9 +8,9 @@ Thank you for your interest in contributing! We welcome contributions from every
 2. **Create a new branch**
 git checkout -b feature-name
 3. **Make your changes**
-Add new features
-Fix bugs
-Improve documentation
+-Add new features
+-Fix bugs
+-Improve documentation
 4.**Commit your changes**
 git commit -m "Add feature / Fix bug"
 5. **Push your branch**
