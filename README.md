@@ -1,4 +1,6 @@
 # OctoImpact: Smart Solutions for a Better Tomorrow
+[Thumbnail Image](https://github.com/user-attachments/assets/91ab2467-037c-4e20-b04d-4f7ee75dfb34)
+
 
 ---
 
