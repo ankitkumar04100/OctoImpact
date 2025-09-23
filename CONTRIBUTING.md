@@ -11,11 +11,11 @@ git checkout -b feature-name
 -Add new features
 -Fix bugs
 -Improve documentation
-4.**Commit your changes**
+5. **Commit your changes**
 git commit -m "Add feature / Fix bug"
-5. **Push your branch**
+6. **Push your branch**
 git push origin feature-name
-6. **Create a Pull Request and describe your changes.**
+7. **Create a Pull Request and describe your changes.**
 
 ## Guidelines
 Follow existing code style and formatting
