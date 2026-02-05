@@ -101,6 +101,7 @@ React.js, Firebase, Python, HuggingFace API, Solidity, Hardhat, Figma, Canva, HT
 
 ## Frontend Architecture
 The frontend is built with **React.js**, using a component-based structure:  
+```
 frontend/
 ├── src/
 │ ├── App.js
@@ -109,7 +110,7 @@ frontend/
 │ ├── Navbar.js
 │ ├── Dashboard.js
 │ └── AIInsights.js
-
+```
 Features:  
 - Single Page Application (SPA) architecture  
 - Responsive layout for mobile and desktop  
@@ -125,13 +126,14 @@ Backend powered by **Python and Firebase**:
 - **Utilities:** Logging, error handling, validation  
 
 Example structure:  
+```
 backend/
 ├── app.py
 ├── requirements.txt
 └── utils/
 ├── db_utils.py
 └── ai_utils.py
-
+```
 
 ---
 
@@ -142,10 +144,11 @@ The AI module is designed to provide insights and predictions:
 - API integration with frontend for dynamic predictions  
 
 Structure:  
+```
 AI_Module/
 ├── notebook.ipynb
 └── requirements.txt
-
+```
 
 ---
 
@@ -153,12 +156,13 @@ AI_Module/
 - Smart contracts written in **Solidity**  
 - Deployed on **Ethereum testnet** via Hardhat  
 - Provides **NFT rewards** for sustainable actions  
-- Example structure:  
+- Example structure:
+```
 blockchain/
 ├── contracts/OctoImpact.sol
 ├── scripts/deploy.js
 └── hardhat.config.js
-
+```
 
 ---
 
@@ -171,6 +175,7 @@ blockchain/
 
 ### Installation
 # Clone repo
+```
 git clone https://github.com/ankitkumar04100/OctoImpact.git
 cd OctoImpact
 
@@ -207,7 +212,7 @@ Blockchain
 cd blockchain
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network rinkeby
-
+```
 ---
 
 ## Demo & Screenshots
