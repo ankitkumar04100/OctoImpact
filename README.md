@@ -174,45 +174,73 @@ blockchain/
 - Hardhat & Ethereum wallet (Metamask)
 
 ### Installation
-# Clone repo
+
+#### Clone repo
+
 ```
 git clone https://github.com/ankitkumar04100/OctoImpact.git
 cd OctoImpact
+```
 
-# Install frontend
+#### Install frontend
+
+```
 cd frontend
 npm install
+```
 
-# Install backend
+#### Install backend
+
+```
 cd ../backend
 pip install -r requirements.txt
+```
 
-# Install AI module
+#### Install AI module
+
+```
 cd ../AI_Module
 pip install -r requirements.txt
+```
 
-# Install blockchain dependencies
+#### Install blockchain dependencies
+
+```
 cd ../blockchain
 npm install
+```
 
-# Running the Application
-Frontend
+### Running the Application
+
+#### Frontend
+
+```
 cd frontend
 npm start
+```
 
-Backend
+#### Backend
+
+```
 cd backend
 python app.py
+```
 
-AI Module
+#### AI Module
+
+```
 cd AI_Module
 jupyter notebook notebook.ipynb
+```
 
-Blockchain
+#### Blockchain
+
+```
 cd blockchain
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network rinkeby
 ```
+
 ---
 
 ## Demo & Screenshots
