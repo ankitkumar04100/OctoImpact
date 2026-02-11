@@ -6,7 +6,7 @@ OctoImpact/
 │    ├─ rewards_routes.py
 │    ├─ config.py
 │    ├─ requirements.txt
-│    └─ __init__.py
+│    └─ init__.py
 │
 │
 ├─ frontend/                 # Frontend React app
