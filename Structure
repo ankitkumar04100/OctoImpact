@@ -1,41 +1,45 @@
 OctoImpact/
+├─  backend/
+│    ├─ app.py
+│    ├─ ai_module.py
+│    ├─ dashboard_routes.py
+│    ├─ rewards_routes.py
+│    ├─ config.py
+│    ├─ requirements.txt
+│    └─ __init__.py
 │
-├── README.md
-├── LICENSE
-├── .gitignore
-├── .env.example
-├── CONTRIBUTING.md
-├── SECURITY.md
-├── CODE_OF_CONDUCT.md
-├── frontend/
-│   ├── public/
-│   │   └── index.html
-│   └── src/
-│       ├── App.js
-│       ├── index.js
-│       └── components/
-│           ├── Navbar.js
-│           ├── Dashboard.js
-│           └── AIInsights.js
-├── backend/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── utils/
-│       ├── db_utils.py
-│       └── ai_utils.py
-├── AI_Module/
-│   ├── notebook.ipynb
-│   └── requirements.txt
-├── blockchain/
-│   ├── contracts/
-│   │   └── OctoImpact.sol
-│   ├── scripts/
-│   │   └── deploy.js
-│   └── hardhat.config.js
-├── assets/
-│   ├── images/
-│   │   ├── banner.png
-│   │   ├── screenshot1.png
-│   │   └── screenshot2.png
-│   └── icons/
-├── demo_video.mp4
+│
+├─ frontend/                 # Frontend React app
+│   ├─ public/
+│   │   ├─ index.html
+│   │   └─ favicon.ico
+│   ├─ src/
+│   │   ├─ App.js
+│   │   ├─ index.js
+│   │   ├─ components/
+│   │   │   ├─ Navbar.js
+│   │   │   ├─ Dashboard.js
+│   │   │   ├─ Rewards.js
+│   │   │   └─ Footer.js
+│   │   ├─ services/
+│   │       ├─ api.js
+│   │       └─ blockchain.js     
+│   ├─ package.json
+│   └─ .env.example
+│
+├─ blockchain/               # Blockchain / Smart Contracts
+│   ├─ OctoImpact.sol        # Solidity contract
+│   ├─ deploy.js             # Hardhat deployment script
+│   └─ hardhat.config.js     # Hardhat configuration
+│
+│
+├─ docs/                     # Documentation files
+│   ├─ README.md             # Full project description
+│   ├─ CONTRIBUTING.md       # Contribution guide
+│   ├─ CODE_OF_CONDUCT.md    # Code of conduct
+│   ├─ SECURITY.md           # Security policy
+│   └─ LICENSE               # MIT or appropriate license
+│
+├─ .gitignore                # Git ignore patterns
+├─ .env.example              # Root environment variables
+└─ App_Demo.md             
