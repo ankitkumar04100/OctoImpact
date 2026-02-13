@@ -32,14 +32,6 @@ OctoImpact/
 │   ├─ deploy.js             # Hardhat deployment script
 │   └─ hardhat.config.js     # Hardhat configuration
 │
-│
-├─ docs/                     # Documentation files
-│   ├─ README.md             # Full project description
-│   ├─ CONTRIBUTING.md       # Contribution guide
-│   ├─ CODE_OF_CONDUCT.md    # Code of conduct
-│   ├─ SECURITY.md           # Security policy
-│   └─ LICENSE               # MIT or appropriate license
-│
 ├─ README.md             # Full project description
 ├─ CONTRIBUTING.md       # Contribution guide
 ├─ CODE_OF_CONDUCT.md    # Code of conduct
