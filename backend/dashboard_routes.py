@@ -1,14 +1,17 @@
+# backend/dashboard_routes.py
 from flask import Blueprint, jsonify
-from ai_module import get_sustainability_insight
+import pandas as pd
+from .ai_module import generate_sustainability_insights
 
-dashboard_bp = Blueprint('dashboard', __name__)
+dashboard = Blueprint('dashboard', __name__)
 
-@dashboard_bp.route("/dashboard", methods=["GET"])
-def get_dashboard():
-    data = {
-        "energy_saved": "12 kWh",
-        "water_saved": "45 liters",
-        "eco_score": 78,
-        "ai_insight": get_sustainability_insight()
-    }
-    return jsonify(data)
+@dashboard.route('/api/dashboard')
+def get_dashboard_data():
+    data = pd.DataFrame({
+        'User': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+        'Energy_Saved_kWh': [12, 8, 15, 9, 11],
+        'Water_Saved_Liters': [45, 30, 60, 50, 42],
+        'Eco_Score': [78, 65, 85, 70, 80]
+    })
+    data = generate_sustainability_insights(data)
+    return jsonify(data.to_dict(orient='records'))
