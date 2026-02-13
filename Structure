@@ -40,6 +40,11 @@ OctoImpact/
 │   ├─ SECURITY.md           # Security policy
 │   └─ LICENSE               # MIT or appropriate license
 │
+├─ README.md             # Full project description
+├─ CONTRIBUTING.md       # Contribution guide
+├─ CODE_OF_CONDUCT.md    # Code of conduct
+├─ SECURITY.md           # Security policy
+├─ LICENSE               # MIT or appropriate license
 ├─ .gitignore                # Git ignore patterns
 ├─ .env.example              # Root environment variables
 └─ App_Demo.md             
